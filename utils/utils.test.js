@@ -22,7 +22,7 @@ it('should verify first and last names are set', () => {
   });
 });
 
-it('should asyn add two numbers', (done) => {
+it('should async add two numbers', (done) => {
   utils.asyncAdd(1, 2, (sum) => {
     expect(sum).toBe(3).toBeA('number');
     done();
